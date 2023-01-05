@@ -1,0 +1,167 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 18px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+}
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* header and navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+/* main section*/
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+/* about info container  */
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+.card-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.card {
+  /* box-shadow: 5px 10px red;    */
+  border: 2px solid blue;
+  padding: 15px;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 10px 0;
+  font-weight: 800;
+}
+
+/* resume section  */
+
+.resume-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px 0; 
+}
+.resume-card {
+  border: 2px solid blue;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* footer  */
+.footer{
+    width: 1140px; 
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFF8F3;
+}
+.connectDiv{
+    width: 50%;
+}
+.formDiv{
+    width: 45%;
+    margin-left: 20px;
+}
+.formDiv div {
+    width: 70%;
+}
+.formDiv div input, textarea {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+.formDiv div input{
+    padding: 15px 10px;
+}
+textarea{
+    padding: 10px;
+}
+.img-div{
+    display: flex;
+    gap: 5px; 
+}
